@@ -12,5 +12,4 @@
       }
 
 		form.addEventListener('submit', myCalc); {
-
     }
