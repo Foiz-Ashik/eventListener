@@ -8,7 +8,7 @@
 			var b = Number(document.getElementById("num2").value);
       var cal1 = a/b;
       var cal2 = cal1*100;
-			alert(cal2);
+			alert(cal2 + "%");
       }
 
 		form.addEventListener('submit', myCalc); {
