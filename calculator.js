@@ -5,8 +5,10 @@
 
       var myCalc = function() {                  
 			var a = Number(document.getElementById("num1").value);
-			var b = Number(document.getElementById("num2").value)/100;
-			alert(a+b);
+			var b = Number(document.getElementById("num2").value);
+      var cal1 = a/b;
+      var cal2 = cal1*100;
+			alert(cal2);
       }
 
 		form.addEventListener('submit', myCalc); {
