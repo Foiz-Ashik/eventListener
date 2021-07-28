@@ -6,10 +6,9 @@
       var myCalc = function() {                  
 			var a = Number(document.getElementById("num1").value);
 			var b = Number(document.getElementById("num2").value)/100;
-			alert(a*b);
+			alert(a+b);
       }
 
-		form.addEventListener('submit', myCalc)
-		{
-          
-		}
+		form.addEventListener('submit', myCalc); {
+
+    }
